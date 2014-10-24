@@ -3,7 +3,7 @@
 /*
 
 Plugin Name: Castlegate IT WP CMB Gallery
-Plugin URI: http://github.com/castlegateit/cgit-wp-cmb-seo
+Plugin URI: http://github.com/castlegateit/cgit-wp-cmb-gallery
 Description: Simple gallery field using Custom Meta Boxes.
 Version: 1.0
 Author: Castlegate IT
