@@ -70,7 +70,9 @@ function cgit_gallery_shortcode () {
         return FALSE;
     }
 
-    $gallery = get_field('gallery', FALSE, FALSE);
+    global $post;
+
+    $gallery = get_post_meta($post->ID, 'gallery', FALSE);
     $output  = '';
 
     if ($gallery) {

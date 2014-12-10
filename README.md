@@ -1,6 +1,6 @@
 # Castlegate IT WP CMB Gallery #
 
-Simple gallery field using [Custom Meta Boxes](https://github.com/castlegateit/cgit-wp-custom-meta-boxes). Defines a field called `gallery`, which can be displayed with the `get_field()`, `the_field()`, or `get_post_meta()` functions:
+Simple gallery field using [Custom Meta Boxes](https://github.com/humanmade/Custom-Meta-Boxes). Defines a field called `gallery`, which can be displayed with the `get_field()`, `the_field()`, or `get_post_meta()` functions:
 
     get_field('gallery', $post_id, FALSE);
 
