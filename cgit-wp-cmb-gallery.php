@@ -42,6 +42,7 @@ function cgit_gallery_fields ($meta_boxes) {
             'type'       => 'group',
             'fields'     => $subfields,
             'repeatable' => TRUE,
+            'sortable'   => TRUE,
         ),
     );
 
