@@ -63,6 +63,20 @@ function cgit_gallery_fields ($meta_boxes) {
 add_filter('cmb_meta_boxes', 'cgit_gallery_fields');
 
 /**
+ * Add entry in user guide
+ */
+function cgit_gallery_user_guide($sections) {
+
+    $file = dirname(__FILE__) . '/user-guide.php';
+    $sections['cgit-wp-cmb-gallery'] = cgit_get_user_guide($file);
+
+    return $sections;
+
+}
+
+add_filter('cgit_user_guide_sections', 'cgit_gallery_user_guide', 100);
+
+/**
  * Add basic shortcode
  */
 function cgit_gallery_shortcode () {
