@@ -68,7 +68,7 @@ add_filter('cmb_meta_boxes', 'cgit_gallery_fields');
 function cgit_gallery_user_guide($sections) {
 
     $file = dirname(__FILE__) . '/user-guide.php';
-    $sections['cgit-wp-cmb-gallery'] = cgit_get_user_guide($file);
+    $sections['cgit-wp-cmb-gallery'] = Cgit\UserGuide::getFile($file);
 
     return $sections;
 
