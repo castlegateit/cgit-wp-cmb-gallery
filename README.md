@@ -1,5 +1,7 @@
 # Castlegate IT WP CMB Gallery #
 
+**Development of this plugin has now stopped. We now recommend [Advanced Custom Fields](http://www.advancedcustomfields.com/) for all custom WordPress fields.**
+
 Simple gallery field using [Custom Meta Boxes](https://github.com/humanmade/Custom-Meta-Boxes). Defines a field called `gallery`, which can be displayed with the `get_field()`, `the_field()`, or `get_post_meta()` functions:
 
     get_field('gallery', $post_id, FALSE);
